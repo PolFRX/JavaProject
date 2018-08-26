@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bgType">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bgPermis">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lTel" min="-2" max="-2" attributes="0"/>
+                          <Component id="lMdp2" min="-2" max="-2" attributes="0"/>
+                          <Component id="lMdp1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lMail" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lNom" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lCB" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lPermis" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lCarteGrise" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lAssurance" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tfNom" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tfMail" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pfMdp1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pfMdp2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="tfTel" alignment="0" pref="133" max="32767" attributes="0"/>
+                          <Component id="cbCB" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="rbPermisB" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="rbMoto" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="tfCarteGrise" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                          <Component id="cbAssurance" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="98" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bAnnuler" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bSuivant" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+              <Component id="lSituation" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Component id="rbPassager" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Component id="rbConducteur" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lSituation" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbPassager" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbConducteur" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lNom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lMail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pfMdp1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lMdp1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pfMdp2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lMdp2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfTel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbCB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lPermis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbPermisB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbMoto" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lCarteGrise" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCarteGrise" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbAssurance" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lAssurance" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="bSuivant" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+              <Component id="bAnnuler" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lSituation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vous &#xea;tes un:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbPassager">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgType"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Passager"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbPassagerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbConducteur">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgType"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Conducteur"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbConducteurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNom">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfMail">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="pfMdp1">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="pfMdp2">
+    </Component>
+    <Component class="javax.swing.JButton" name="bAnnuler">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Annuler"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAnnulerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nom:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adresse mail:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMdp1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mot de passe"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMdp2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirmez votre mot de passe:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Num&#xe9;ro de t&#xe9;l&#xe9;phone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bSuivant">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Suivant"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bSuivantActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="tfTel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lCB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Payez-vous en carte bleu?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cbCB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oui"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lPermis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Permis:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lCarteGrise">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Num&#xe9;ro de carte grise:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lAssurance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avez-vous une attestation d&apos;assurance?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbPermisB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgPermis"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Voiture"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbMoto">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgPermis"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Moto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="tfCarteGrise">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cbAssurance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="oui"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

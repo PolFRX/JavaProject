@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bgTypeVehic">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lMdp" min="-2" max="-2" attributes="0"/>
+                  <Component id="lMail" min="-2" max="-2" attributes="0"/>
+                  <Component id="lTel" min="-2" max="-2" attributes="0"/>
+                  <Component id="lNom" min="-2" max="-2" attributes="0"/>
+                  <Component id="lPermis" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lCarteGrise" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rbPermisMoto" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="tfTel" alignment="1" min="-2" pref="132" max="-2" attributes="0"/>
+                      <Component id="tfNom" alignment="1" min="-2" pref="132" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="rbPermisB" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCarteGrise" min="-2" pref="132" max="-2" attributes="0"/>
+                  <Component id="tfMail" min="-2" pref="132" max="-2" attributes="0"/>
+                  <Component id="tfMdp" min="-2" pref="132" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="58" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bRetour" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lBienvenue" min="-2" pref="163" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bValider" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bModifVehic" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="lBienvenue" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfNom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfTel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lPermis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbPermisB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rbPermisMoto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="bModifVehic" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lCarteGrise" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCarteGrise" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lMail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lMdp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfMdp" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="bValider" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="bRetour" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lNom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nom:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adresse mail:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Num&#xe9;ro de tel:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNom">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfTel">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfCarteGrise">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lBienvenue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bienvenue sur votre profil."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lPermis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type de permis:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lCarteGrise">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Num&#xe9;ro de carte grise:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMdp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mot de passe:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="tfMdp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfMail">
+    </Component>
+    <Component class="javax.swing.JButton" name="bValider">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valider les changements"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bValiderActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bRetour">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Retour"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bRetourActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbPermisB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgTypeVehic"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Voiture"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbPermisBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbPermisMoto">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bgTypeVehic"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Moto"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbPermisMotoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bModifVehic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modifier le v&#xe9;hicule"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bModifVehicActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
